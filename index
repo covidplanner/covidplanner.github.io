@@ -1,0 +1,26 @@
+
+
+<!DOCTYPE html>
+
+<html lang="pt-br" class="no-js">
+
+	<head>
+
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+        <title>COVID PLANNER</title>
+        <meta name="description" content="projeto sobre o covid e a quarentena" />
+		<meta name="keywords" content="calendário, planejamento, covid-19, vida, mudança" />
+		<meta name="author" content="Débora Aita gasparetto" />
+        
+        
+    <!-- ANALYTICS!-->
+       
+
+
+<div class="calendar">
+  <div class="pages"></div>
+</div>
+
+
+</HTML>

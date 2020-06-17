@@ -1,0 +1,254 @@
+@import url(http://weloveiconfonts.com/api/?family=fontawesome);
+
+*[class*="fontawesome-"]:before {
+  font-family: 'FontAwesome', sans-serif;
+}
+
+
+body {
+	font-family: 'Oxygen', sans-serif;
+    background-color: #f7f3ec;
+    cursor: url("../imgs/cursor.gif"), pointer;
+}
+
+header {
+	text-align: center;
+}
+
+#menu{
+    list-style: none;
+    z-index: 4;
+    position: fixed;
+    width: 10%;
+    height: 20%;
+    background: #ef7c7b;
+    border-radius: 30%;
+    line-height:5em;
+    bottom:-80px;
+    left:43%;
+    border: 2px solid #13110f;
+    text-align: left;
+
+
+
+    
+}
+#menu a{
+      list-style: none;  
+      color: #ffffff;
+      text-decoration: none;
+      position: fixed;
+      font-weight: 700;
+      font-size: 1.6em;
+}
+
+#menu:hover{
+          background: #b8dddc;
+       	 border: 2px solid #13110f;
+      }
+
+.btn-prev,
+.btn-next {
+	border: 2px solid #13110f;
+	border-radius: 20%;
+	color: #13110f;
+	height: 1.5em;
+	font-size: 2em;
+	line-height: 1.5em;
+	margin: 0;
+	position: absolute;
+	top: 30%;
+	width: 1.5em;
+    text-decoration: none;
+}
+
+.btn-prev:hover,
+.btn-next:hover {
+	background: #b8dddc;
+	color: #ffffff;
+}
+
+.btn-prev {
+	left: 6em;
+}
+
+.btn-next {
+	right: 6em;
+}
+
+    
+#calendar {
+	width: 100%;	
+}
+
+#calendar a {
+	color: #b8dddc;
+	text-decoration: none;
+}
+
+#calendar ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	width: 100%;
+}
+
+#calendar li {
+	display: block;
+	float: left;
+	width:14%;
+	padding: 5px;
+	box-sizing:border-box;
+	border: 2px solid #ffffff;
+	margin: 1px 1px 1px 1px; 
+    border-radius: 15px;
+
+}
+
+#calendar ul.weekdays {
+	height: 40px;
+	background: #ef7c7b;
+    border: 2px solid #13110f;
+    border-radius: 5px;
+
+}
+
+#calendar ul.weekdays li {
+	text-align: center;
+	text-transform: uppercase;
+	line-height: 20px;
+	border: none !important;
+	padding: 10px 6px;
+	color: #f7f3ec;
+	font-size: 13px;
+    font-weight: 300;
+
+}
+
+#calendar .days li {
+	height: 180px;
+}
+
+#calendar .days li:hover {
+	background: #ffffff;
+}
+
+#calendar .date {
+	text-align: center;
+	padding: 20px 20px 20px 20px;
+    position: center;
+    color: #13110f;
+	width: 30px;
+    height: 30px;
+	border-radius: 50%;
+	float: center;
+    font-size: 2rem;
+    font-weight: 700;
+    z-index: 1;
+    margin-top: 0;
+    position: absolute;
+
+}
+
+
+#calendar .date:hover {
+	background: #ffffff;
+}
+
+#calendar .event {
+	clear: both;
+	display: block;
+	font-size: 14px;
+	border-radius: 10px;
+	padding: 5px;
+	margin-top: 100px;
+	margin-bottom: 5px;
+	line-height: 14px;
+	background: #a8e0c8;
+	border: 2px solid #ffffff;
+	color: #ffffff;
+	text-decoration: none;
+
+}
+
+#calendar .event-desc {
+	color: #666;
+	margin: 3px 0 7px 0;
+	text-decoration: none;	
+}
+
+#calendar .other-month {
+	color: #666;
+    filter: grayscale(100%);
+}
+
+.img_vert{
+    position: relative;
+    width: 100%;
+    z-index: 0;
+    top:0;
+   left:0;
+    
+}
+
+.img_hor{
+    position: relative;
+    height: 100%;
+    z-index: 0;
+    top:0;
+   left:0;
+    
+  
+    
+}
+#img_main {
+   width:190px;
+   height:170px;
+   position:relative;
+   overflow: hidden;
+   border-radius: 10px;
+    
+}
+
+#img_main:hover {
+     z-index: 3;
+   -moz-transform: scale(2.1);
+	-webkit-transform: scale(2.1);
+	transform: scale(2.1);
+}
+
+.logo{
+    
+    position: relative;
+    margin-left: 40%;
+    margin-top: 20px;
+    width: 20%;
+    height: auto;
+
+}
+    
+}
+
+/* ============================
+				Mobile Responsiveness
+   ============================*/
+
+
+@media(max-width: 768px) {
+
+	#calendar .weekdays, #calendar .other-month {
+		display: none;
+	}
+
+	#calendar li {
+		height: auto !important;
+		border: 1px solid #ededed;
+		width: 100%;
+		padding: 10px;
+		margin-bottom: -1px;
+	}
+
+	#calendar .date {
+		float: none;
+	}
+}
