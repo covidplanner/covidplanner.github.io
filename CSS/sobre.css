@@ -132,34 +132,77 @@ header {
 
 
 
+
+
 /* ============================
 				Mobile Responsiveness
    ============================*/
 
-  @media (min-width: 360) and (max-width: 1000px) {
+  @media (max-width: 1024px) {
       
  .logo{
-    width: 45%;
-    margin-left: 5%;
+    width: 10%;
+    margin-left: 2%;
    
 }
       
       
-      
 .textcorrido{
-    padding: 2% 3% 3% 3%;
+    padding: 4% 4% 4% 4%;
     background-color: #ffffff;
     border-radius: 5%;
     margin-left:5%;
     margin-right:5%;
-    width: 50%;
+    width: 80%;
 }
 
 .textgeral{
     font-size: 1rem;
     font-weight: 200;
-    margin-top: 2em;
+    margin-top: 1em;
     line-height:1.5em;
     
+}
+      
+        
+.btnvoltar{
+	visibility: hidden;
+}
+
+
+
+
+.btndescer{
+	visibility:hidden;
+}
+
+.btndescer {
+	visibility: hidden;
+}
+
+
+
+.btnsubir{
+	visibility: hidden;
+}
+
+
+.btnsubir{
+visibility: hidden;
+      }
+      
+   
+   
+#menu{
+   
+    width: 25%;
+    height: 20%;
+    left:30%;
+    line-height: 4em; 
+}
+    
+#menu a{
+      font-size: 1rem;
+      text-align: center;
 }
 }
