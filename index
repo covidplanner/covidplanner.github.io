@@ -20,7 +20,7 @@
         
 
         <!-- Favicon and touch icons -->
-        <link rel="shortcut icon" href="SVG/Ativo%202.svg" />
+        <link rel="shortcut icon" href="SVG/marca.svg" />
         <!--[if lt IE 9]>
           <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
           <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
@@ -36,7 +36,7 @@
     
     
 <ul id=menu>
-<li><a href="#sobre">SOBRE</a>
+<li><a href="sobre.html">SOBRE</a>
 </ul>
         
 
@@ -46,10 +46,10 @@
                 
                 
                 <div class="logo"> 
-                <img src="SVG/Ativo%202.svg">
+ <a href="index.html"> <img src="SVG/marca.svg"></a>
                 </div>
-    			<h1>MARÇO 2020</h1>
-				<a class="btn-next fontawesome-angle-right" href="abril.html"></a>
+    			<h1 class="mes">MARÇO 2020</h1>
+				<a class ="btnavante" href="abril.html"><img src="SVG/avante.svg"></a>
 
     		</header>
     
@@ -67,87 +67,13 @@
 
     			<!-- Days from previous month -->
 
+    			
     			<ul class="days">
-    				<li class="day">
-    					<div class="date">1</div>    					
-    				</li>
-    				<li class="day">
-    					<div class="date">2</div>
-    									
-    				</li>
-    				<li class="day">
-    					<div class="date">3</div>    					
-    				</li>
-    				<li class="day">
-    					<div class="date">4</div>    					
-    				</li>
-    				<li class="day">
-    					<div class="date">5</div>    					
-    				</li>
-
-    				<li class="day">
-    					<div class="date">6</div>    					
-    				</li>
-    				<li class="day">
-    					<div class="date">7</div>
-    					 					
-    				</li>
-    			</ul>
-
-    				<!-- Row #2 -->
-
-    			<ul class="days">
-    				<li class="day">
-    					<div class="date">8</div>    					
-    				</li>
-    				<li class="day">
-    					<div class="date">9</div> 
-                       
-                        <div class="event">
-                        <div class="event-desc">
-    							Início das aulas - Laboratório de Interface
-    						</div>
-    						<div class="event-time">
-    							9:30 a 12:30
-                            </div>
-    						</div>
-    				</li>
-    				<li class="day">
-    					<div class="date">10</div>    					
-    				</li>
-    				<li class="day">
-    					<div class="date">11</div>    					
-    				</li>
-    				<li class="day">
-    					<div class="date">12</div>
-    					<div class="event">
-    						<div class="event-desc">
-    							Group Project meetup
-    						</div>
-    						<div class="event-time">
-    							6:00pm to 8:30pm
-    						</div>
-    					</div>     					
-    				</li>
-    				<li class="day">
-    					<div class="date">13</div>    					
-    				</li>
-    				<li class="day">
-    					<div class="date">14</div>    					
-    				</li>
-    			</ul>
-
-    				<!-- Row #3 -->
-
-    			<ul class="days">
-    				<li class="day">
-    					<div class="date">15</div>    					
-    				</li>
     				
                     <li class="day">
                         <div class="date">16</div>
                       <div id="img_main">
-                           <img class="img_vert" src="imgs/16_03.png" alt="Glitch Mathias Correndo no Pátio">
+                           <img class="img_vert" src="imgs/comp/16_03-min.png" >
 
                         </div>
                     
@@ -157,7 +83,7 @@
     				<li class="day">
     					<div class="date">17</div>   
                         <div id="img_main">
-                           <img class="img_hor" src="imgs/17_03.png" alt="Glitch Mathias e vovó na horta">
+                           <img class="img_hor" src="imgs/comp/17_03-min.png" >
 
                         </div>
     				</li>
@@ -166,28 +92,28 @@
     				<li class="day">
     					<div class="date">18</div>   
                         <div id="img_main">
-                           <img class="img_hor" src="imgs/18-03.png" alt="Glitch Mathias e Paul se espreguiçando">
+                           <img class="img_hor" src="imgs/comp/18-03-min.png" >
 
                         </div>
     				</li>
     				<li class="day">
     					<div class="date">19</div>
                           <div id="img_main">
-                           <img class="img_vert" src="imgs/19_03.png" alt="Glitch Mathias Correndo no Pátio">
+                           <img class="img_vert" src="imgs/comp/19_03-min.png" >
 
                         </div>
     				</li>
     				<li class="day">
     					<div class="date">20</div>   
                          <div id="img_main">
-                           <img class="img_hor" src="imgs/20_03.png" alt="Glitch Mathias Correndo no Pátio">
+                           <img class="img_hor" src="imgs/comp/20_03-min.png" >
 
                         </div>
     				</li>
     				<li class="day">
     					<div class="date">21</div>   
                          <div id="img_main">
-                           <img class="img_hor" src="imgs/21_03.png" alt="Glitch Mathias Correndo no Pátio">
+                           <img class="img_hor" src="imgs/comp/21_03-min.png" >
 
                         </div>
     				</li>
@@ -199,42 +125,42 @@
     				<li class="day">
     					<div class="date">22</div>    
                          <div id="img_main">
-                           <img class="img_vert" src="imgs/22_03.png" alt="Glitch Mathias Correndo no Pátio">
+                           <img class="img_vert" src="imgs/comp/22_03-min.png" >
 
                         </div>
     				</li>
     				<li class="day">
     					<div class="date">23</div>  
                          <div id="img_main">
-                           <img class="img_vert" src="imgs/23_03.png" alt="Glitch Mathias Correndo no Pátio">
+                           <img class="img_vert" src="imgs/comp/23_03-min.png" >
 
                         </div>
     				</li>
     				<li class="day">
     					<div class="date">24</div>  
                          <div id="img_main">
-                           <img class="img_vert" src="imgs/24_03.png" alt="Glitch Mathias Correndo no Pátio">
+                           <img class="img_vert" src="imgs/comp/24_03-min.png" >
 
                         </div>
     				</li>
     				<li class="day">
     					<div class="date">25</div>   
                          <div id="img_main">
-                           <img class="img_hor" src="imgs/25_03.png" alt="Glitch Mathias Correndo no Pátio">
+                           <img class="img_hor" src="imgs/comp/25_03-min.png" >
 
                         </div>
     				</li>
     				<li class="day">
     					<div class="date">26</div>  
                          <div id="img_main">
-                           <img class="img_vert" src="imgs/26_03.png" alt="Glitch Mathias Correndo no Pátio">
+                           <img class="img_vert" src="imgs/comp/26_03-min.png" >
 
                         </div>
     				</li>
     				<li class="day">
     					<div class="date">27</div>
                          <div id="img_main">
-                           <img class="img_vert" src="imgs/27_03.png" alt="Glitch Mathias Correndo no Pátio">
+                           <img class="img_vert" src="imgs/comp/27_03-min.png" >
 
                         </div>
     										
@@ -242,7 +168,7 @@
     				<li class="day">
     					<div class="date">28</div>    
                          <div id="img_main">
-                           <img class="img_hor" src="imgs/28_03.png" alt="Glitch Mathias Correndo no Pátio">
+                           <img class="img_hor" src="imgs/comp/28_03-min.png" >
 
                         </div>
     				</li>
@@ -254,14 +180,14 @@
     				<li class="day">
     					<div class="date">29</div>    	
                          <div id="img_main">
-                           <img class="img_vert" src="imgs/29_03.png" alt="Glitch Mathias Correndo no Pátio">
+                           <img class="img_vert" src="imgs/comp/29_03-min.png" >
 
                         </div>
     				</li>
     				<li class="day">
     					<div class="date">30</div>
     					 <div id="img_main">
-                           <img class="img_vert" src="imgs/30_03.png" alt="Glitch Mathias Correndo no Pátio">
+                           <img class="img_vert" src="imgs/comp/30_03-min.png" >
 
                         </div>					
     				</li>
@@ -269,7 +195,7 @@
     				<li class="day">
     					<div class="date">31</div>   
                          <div id="img_main">
-                           <img class="img_vert" src="imgs/31_03.png" alt="Glitch Mathias Correndo no Pátio">
+                           <img class="img_vert" src="imgs/comp/31_03-min.png" >
 
                         </div>
     				</li>
@@ -284,28 +210,28 @@
     				<li class="day other-month">
     					<div class="date">1</div> <!-- Next Month -->    
                         <div id="img_main">
-                           <img class="img_vert" src="imgs/01_04.png" alt="Glitch Mathias Correndo no Pátio">
+                           <img class="img_vert" src="imgs/comp/01_04-min.png" >
 
                         </div>
     				</li>
     				<li class="day other-month">
     					<div class="date">2</div>  
                         <div id="img_main">
-                           <img class="img_hor" src="imgs/02_04.png" alt="Glitch Mathias Correndo no Pátio">
+                           <img class="img_hor" src="imgs/comp/02_04-min.png" >
 
                         </div>
     				</li>
     				<li class="day other-month">
     					<div class="date">3</div>   
                         <div id="img_main">
-                           <img class="img_vert" src="imgs/03_04.png" alt="Glitch Mathias Correndo no Pátio">
+                           <img class="img_vert" src="imgs/comp/03_04-min.png" >
 
                         </div>
     				</li>
     				<li class="day other-month">
     					<div class="date">4</div> 
                         <div id="img_main">
-                           <img class="img_vert" src="imgs/04_04.png" alt="Glitch Mathias Correndo no Pátio">
+                           <img class="img_vert" src="imgs/comp/04_04-min.png" >
 
                         </div>
     				</li>
