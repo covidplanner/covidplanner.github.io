@@ -46,19 +46,15 @@ header {
       }
 
 
-    
-   .logo{
-    
+.logo{
     position: relative;
     margin-left: 38%;
     margin-top: 20px;
-    width: 8%;
+    width: 10%;
     height: auto;
 
 }
 
-
-    
 .textcorrido{
     padding: 2% 10% 10% 10%;
     background-color: #ffffff;
@@ -132,4 +128,38 @@ header {
 
 .btnsubir{
 	right: 10%;
+}
+
+
+
+/* ============================
+				Mobile Responsiveness
+   ============================*/
+
+  @media (min-width: 360) and (max-width: 1000px) {
+      
+ .logo{
+    width: 45%;
+    margin-left: 5%;
+   
+}
+      
+      
+      
+.textcorrido{
+    padding: 2% 3% 3% 3%;
+    background-color: #ffffff;
+    border-radius: 5%;
+    margin-left:5%;
+    margin-right:5%;
+    width: 50%;
+}
+
+.textgeral{
+    font-size: 1rem;
+    font-weight: 200;
+    margin-top: 2em;
+    line-height:1.5em;
+    
+}
 }
