@@ -1,0 +1,131 @@
+@import url(http://weloveiconfonts.com/api/?family=fontawesome);
+
+*[class*="fontawesome-"]:before {
+  font-family: 'FontAwesome', sans-serif;
+}
+
+
+body {
+	font-family: 'Oxygen', sans-serif;
+    background-color: #f7f3ec;
+    cursor: url("../imgs/cursor.gif"), pointer;
+}
+
+header {
+	text-align: center;
+}
+
+#menu{
+    list-style: none;
+    z-index: 4;
+    position: fixed;
+    width: 10%;
+    height: 20%;
+    background: #ef7c7b;
+    border-radius: 30%;
+    line-height:5.2em;
+    bottom:-80px;
+    left:43%;
+    border: 2px solid #13110f;
+    text-align: left;
+    
+}
+
+#menu a{
+      list-style: none;  
+      color: #ffffff;
+      text-decoration: none;
+      position: fixed;
+      font-weight: 700;
+      font-size: 1.6em;
+}
+
+#menu:hover{
+          background: #b8dddc;
+       	 border: 2px solid #13110f;
+      }
+
+.logo{
+    
+    position: relative;
+    margin-left: 40%;
+    margin-top: 20px;
+    width: 20%;
+    height: auto;
+
+}
+    
+.textcorrido{
+    padding: 2% 10% 10% 10%;
+    background-color: #ffffff;
+    border-radius: 5%;
+    margin-left:30%;
+    margin-right:15%;
+    width: 25%;
+}
+
+.textgeral{
+    font-size: 1rem;
+    font-weight: 200;
+    margin-top: 2em;
+    line-height:1.5em;
+    
+}
+    
+.btnvoltar{
+	height: 1.5em;
+	font-size: 2em;
+	position: absolute;
+	bottom: 3%;
+    width: 1.5em;
+    text-decoration: none;
+}
+
+.btnvoltar:hover{
+  content: url(../SVG/voltarcolor.svg);
+    
+}
+
+.btnvoltar {
+	left: 10%;
+}
+
+
+
+.btndescer{
+	height: 1.5em;
+	font-size: 2em;
+	position: absolute;
+	bottom: 3%;
+    width: 1.5em;
+    text-decoration: none;
+}
+
+.btndescer:hover{
+  content: url(../SVG/descercolor.svg);
+    
+}
+
+.btndescer {
+	right: 10%;
+}
+
+
+
+.btnsubir{
+	height: 1.5em;
+	font-size: 2em;
+	position: absolute;
+	bottom: -10%;
+    width: 1.5em;
+    text-decoration: none;
+}
+
+.btnsubir:hover{
+  content: url(../SVG/subircolor.svg);
+    
+}
+
+.btnsubir{
+	right: 10%;
+}
